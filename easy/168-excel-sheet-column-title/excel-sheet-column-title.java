@@ -5,7 +5,6 @@ class Solution {
             columnNumber--;
             int digit = columnNumber % 26;
             s = (char)(65+digit) + s;
-            System.out.println(s);
             columnNumber /= 26;
         }
         return s;
